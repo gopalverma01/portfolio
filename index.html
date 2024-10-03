@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="assets/images/favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="assets/images/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="assets/images/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="/site.webmanifest" />
+		<title>Gopal verma</title>
+	</head>
+
+	<body>
+		
+		<section class="header" id="home">
+			<nav>
+				<a href="index.html"
+					><img src="https://static.vecteezy.com/system/resources/previews/012/591/859/original/letter-g-logo-with-transparent-background-png.png" alt="Logo"
+				/></a>
+				<div class="nav-links">
+					<ul class="menu">
+						<li><a href="#home">HOME</a></li>
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#services">SERVICES</a></li>
+						<li><a href="#contact">CONTACT ME</a></li>
+					</ul>
+				</div>
+				<a
+					class="cv-button"
+					href="https://drive.google.com/file/d/1PfSNwsPdAInrqwurlXe9MjDXyFpONyjy/view?usp=drivesdk"
+					target="_blank"
+				>
+					MY RESUME
+				</a>
+				<div class="hamburger-menu">
+					<i class="fas fa-bars"></i>
+				</div>
+			</nav>
+
+			<div class="mobile-menu">
+				<div class="hamburger-clicked">
+					<i class="fas fa-bars"></i>
+				</div>
+				<ul class="menu">
+					<li><a href="#home" onclick="toggleMenufunc()">HOME</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#services">SERVICES</a></li>
+					<li><a href="#contact">CONTACT ME</a></li>
+					<br />
+					<a
+						class="mobile-menu-btn"
+						href="https://drive.google.com/file/d/1PfSNwsPdAInrqwurlXe9MjDXyFpONyjy/view?usp=drivesdk"
+						target="_blank"
+					>
+						MY RESUME
+					</a>
+				</ul>
+			</div>
+			<div class="name-link-wrapper">
+				<div class="home-icons">
+					<a href="https://github.com/gopalverma01" target="_blank"
+						><i class="fa-brands fa-github"></i
+					></a>
+					<a
+						href="https://www.linkedin.com/in/gopal-verma-645801247/"
+						target="_blank"
+						><i class="fa-brands fa-linkedin"></i
+					></a>
+					<a
+						href="https://www.instagram.com/_nitin__raj/?hl=en"
+						target="_blank"
+						><i class="fa-brands fa-instagram"></i
+					></a>
+					<a
+						href="https://www.facebook.com/nitinraj72"
+						target="_blank"
+						><i class="fa-brands fa-facebook"></i
+					></a>
+					<a
+						href="https://twitter.com/NitinRajvanshi4"
+						target="_blank"
+						><i class="fa-brands fa-twitter"></i
+					></a>
+					
+				</div>
+				<div class="name-box">
+					<h1>Hello World!</h1>
+					<h2><span>I'm Gopal Verma </span><br><span> A </span><span id="typing"></span></h2>
+				</div>
+			</div>
+		</section>
+
+		<section data-aos="fade-up" class="about" id="about">
+			<div class="about-container">
+				<div
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					class="about-img"
+				>
+					<img src="meri.jpg" alt="myimg" />
+				</div>
+				<div
+					data-aos="fade-up"
+					data-aos-duration="2000"
+					class="about-txt"
+				>
+					<h2>About Me</h2>
+					<h3><span>Hi I'm </span>Gopal verma</h3>
+					<p>
+						A student at G L Bajaj , currently pursuing B.Tech
+						degree in computer science and engineering. I am passionate
+						about exploring different domains and how they can be
+						applied to solve real-world problems. My expertise lies
+						in programming and problem-solving, and I enjoy taking
+						on challenging projects that require innovative
+						solutions.<br /><br />With my strong foundational
+						knowledge of programming, I am always eager to learn and
+						grow in the field. I am particularly interested in
+						exploring the intersection of technology and society and
+						how technology can be used to improve everyday life.
+					</p>
+				</div>
+			</div>
+		</section>
+
+	   <!-- <section data-aos="fade-up" class="skills flex-box">
+			<h2>MY SKILLS</h2>
+			<h4>My Expertise: Skills Overview</h4>
+			<p>
+				Comprehensive range of Skills I possess, Honed through
+				Experience and Dedication
+			</p>
+			<div class="skills-container">
+				<div class="flex-wrapper">
+					<div class="single-chart">
+						<svg viewBox="0 0 36 36" class="circular-chart orange">
+							<path
+								class="circle-bg"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<path
+								class="circle"
+								stroke-dasharray="90, 100"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<text x="18" y="20.35" class="percentage">90%</text>
+						</svg>
+						<p>C/C++</p>
+					</div>
+
+					<div class="single-chart">
+						<svg viewBox="0 0 36 36" class="circular-chart green">
+							<path
+								class="circle-bg"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<path
+								class="circle"
+								stroke-dasharray="90, 100"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<text x="18" y="20.35" class="percentage">90%</text>
+						</svg>
+						<p>HTML</p>
+					</div>
+
+					<div class="single-chart">
+						<svg viewBox="0 0 36 36" class="circular-chart blue">
+							<path
+								class="circle-bg"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<path
+								class="circle"
+								stroke-dasharray="80, 100"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<text x="18" y="20.35" class="percentage">80%</text>
+						</svg>
+						<p>CSS</p>
+					</div>
+					<div class="single-chart">
+						<svg viewBox="0 0 36 36" class="circular-chart orange">
+							<path
+								class="circle-bg"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<path
+								class="circle"
+								stroke-dasharray="70, 100"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<text x="18" y="20.35" class="percentage">70%</text>
+						</svg>
+						<p>JavaScript</p>
+					</div>
+
+					<div class="single-chart">
+						<svg viewBox="0 0 36 36" class="circular-chart green">
+							<path
+								class="circle-bg"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<path
+								class="circle"
+								stroke-dasharray="70, 100"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<text x="18" y="20.35" class="percentage">70%</text>
+						</svg>
+						<p>React.js</p>
+					</div>
+
+					<div class="single-chart">
+						<svg viewBox="0 0 36 36" class="circular-chart blue">
+							<path
+								class="circle-bg"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<path
+								class="circle"
+								stroke-dasharray="50, 100"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<text x="18" y="20.35" class="percentage">50%</text>
+						</svg>
+						<p>Node.js</p>
+					</div>
+					<div class="single-chart">
+						<svg viewBox="0 0 36 36" class="circular-chart blue">
+							<path
+								class="circle-bg"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<path
+								class="circle"
+								stroke-dasharray="90, 100"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<text x="18" y="20.35" class="percentage">90%</text>
+						</svg>
+						<p>Photoshop</p>
+					</div>
+					<div class="single-chart">
+						<svg viewBox="0 0 36 36" class="circular-chart blue">
+							<path
+								class="circle-bg"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<path
+								class="circle"
+								stroke-dasharray="80, 100"
+								d="M18 2.0845
+        a 15.9155 15.9155 0 0 1 0 31.831
+        a 15.9155 15.9155 0 0 1 0 -31.831"
+							/>
+							<text x="18" y="20.35" class="percentage">80%</text>
+						</svg>
+						<p>Illustrator</p>
+					</div>
+				</div>
+			</div>
+		</section>-->
+
+		<section class="experience">
+			<h2>EDUCATION & EXPERIENCE</h2>
+			<h4>Academic and Professional Trajectory</h4>
+			<p>
+				Embark on a journey through my Educational Achievements and
+				Professional Milestones, witnessing the fusion of Knowledge,
+				Skills, and Real-World Experiences
+			</p>
+			<div class="edu-exp-container">
+				<div class="edu-info">
+					<div class="education">
+						<h2><label>Education</label></h2>
+						<ul class="edu-list">
+							<li class="item flex-box">
+								<div class="year">
+									<p>20<br />26</p>
+								</div>
+								<div class="degree">
+									<h5>Bachelor OF Technology</h5>
+									<h3>
+										<span>Computer science and engineering</span
+										><br />
+										G.L. BAJAJ Institute of Technology and management greater noida U.P.
+									</h3>
+								</div>
+							</li>
+							<li class="item flex-box">
+								<div class="year">
+									<p>20<br />22</p>
+								</div>
+								<div class="degree">
+									<h5>PCM</h5>
+									<h3>
+										<span>JEE Preparation</span><br />
+										Physics wallah 
+									</h3>
+								</div>
+							</li>
+							<li class="item flex-box">
+								<div class="year">
+									<p>20<br />21</p>
+								</div>
+								<div class="degree">
+									<h5>PCM</h5>
+									<h3>
+										<span>Intermediate - 89%</span><br />
+										Jawahar Navodaya Vidyalaya, Sitapur-I
+									</h3>
+								</div>
+							</li>
+							<li class="item flex-box">
+								<div class="year">
+									<p>20<br />19</p>
+								</div>
+								<div class="degree">
+									<h5>PCMB, S.St</h5>
+									<h3>
+										<span>High School - 92.2%</span><br />
+										Jawahar Navodaya Vidyalaya, Sitapur-I
+									</h3>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="education">
+						<h2><label>Experience</label></h2>
+						<ul class="por-list">
+							<li class="item">
+								<h3>Development Intern</h3>
+								<h5>@ MOTION CUT</h5>
+								<p>
+									<span>September - November</span><br />
+									Developed Frontend part for the main website
+									using React.js
+								</p>
+							</li>
+							
+							<li class="item">
+								<h3>Design and media director</h3>
+								<h5>
+									@ shrinik club , G.L. BAJAJ
+								</h5>
+								<p>
+									<span>July 2022 - April 2023</span><br />
+									Responsible for Creating Creatives for
+									Social Media Handles. Designed Annual
+									Magazines, Banners and T-shirts Graphics for
+									several Events
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="projects">
+			<h2>PROJECTS</h2>
+			<h4>Explore My Creative Endeavors</h4>
+			<p>
+				Dive into a showcase of my diverse range of Projects
+				demonstrating my Passion, Skills, and Creativity across various
+				domains
+			</p>
+			<div class="outer-box">
+				<div class="projects-container">
+					<article
+						data-aos="flip-left"
+						data-aos-easing="ease-out"
+						data-aos-duration="1000"
+						class="project-card"
+					>
+						<img
+							class="card__background"
+							src="assets/images/snakegame.jpg"
+							alt="project-img"
+							width="360"
+							height="120"
+						/>
+						<div class="card__content | flow">
+							<div class="card__content--container | flow">
+								<h2 class="card__title">Snake Game</h2>
+								<p class="card__description">
+									Created a Snake Game using JavaScript. The
+									Game features Arrow Keys controlled Snake
+									and Local Storage of High-Score.
+								</p>
+							</div>
+							<button
+								class="card__button"
+								onclick="window.open('https://github.com/nkraj7266/Snake-Game', '_blank')"
+							>
+								Repo Link
+							</button>
+						</div>
+					</article>
+
+					<article
+						data-aos="flip-left"
+						data-aos-easing="ease-out"
+						data-aos-duration="1000"
+						class="project-card"
+					>
+						<img
+							class="card__background"
+							src="assets/images/linkedin.png"
+							alt="project-img"
+							width="360"
+							height="120"
+						/>
+						<div class="card__content | flow">
+							<div class="card__content--container | flow">
+								<h2 class="card__title">Scraping Bot</h2>
+								<p class="card__description">
+									Created a program which Scrapes Data from
+									LinkedIn Automatically. Which reduces Time
+									and Efforts a lot.
+								</p>
+							</div>
+							<button
+								class="card__button"
+								onclick="window.open('https://github.com/nkraj7266/Linkedin_Automation', '_blank')"
+							>
+								Repo Link
+							</button>
+						</div>
+					</article>
+
+					<article
+						data-aos="flip-left"
+						data-aos-easing="ease-out"
+						data-aos-duration="1000"
+						class="project-card"
+					>
+						<img
+							class="card__background"
+							src="assets/images/edge_detection.png"
+							alt="project-img"
+							width="360"
+							height="120"
+						/>
+						<div class="card__content | flow">
+							<div class="card__content--container | flow">
+								<h2 class="card__title">Edge Detection</h2>
+								<p class="card__description">
+									Written a Python program using OpenCV
+									Library which detects Road Edges in from
+									Video or Images.
+								</p>
+							</div>
+							<button
+								class="card__button"
+								onclick="window.open('https://github.com/nkraj7266/Road_Edge_Detection', '_blank')"
+							>
+								Repo Link
+							</button>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="services" id="services">
+			<h2>SERVICES</h2>
+			<h4>What I Am Good At</h4>
+			<p>
+				Transforming ideas into captivating experiences, I provide
+				comprehensive services that exceed expectations and inspire
+				lasting connections
+			</p>
+			<div class="services-cards">
+				<div class="container">
+					<div class="card">
+						<div class="face face1">
+							<div class="content">
+								<h2>Web Development</h2>
+								<p class="web-development">
+									Creating powerful and dynamic websites
+									tailored to meet your needs
+								</p>
+							</div>
+						</div>
+						<div class="face face2">
+							<img
+								src="webdevelopment.png"
+								alt="coding"
+							/>
+							<h2>Web Development</h2>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="face face1">
+							<div class="content">
+								<h2>Blockchain Development</h2>
+								<p>
+									Building secure and decentralized solutions
+									for the future of technology
+								</p>
+							</div>
+						</div>
+						<div class="face face2">
+							<img
+								src="blockchain.png"
+								alt="coding"
+							/>
+							<h2>Blockchain Development</h2>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="face face1">
+							<div class="content">
+								<h2>Graphic Designing</h2>
+								<p>
+									Transforming ideas into captivating visuals
+									that leave a lasting impression
+								</p>
+							</div>
+						</div>
+						<div class="face face2">
+							<img
+								src="graphic.jpeg"
+								alt="coding"
+							/>
+							<h2>Graphic Designing</h2>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="face face1">
+							<div class="content">
+								<h2>UI/UX Designing</h2>
+								<p>
+									Crafting intuitive and engaging user
+									experiences that elevate your brand
+								</p>
+							</div>
+						</div>
+						<div class="face face2">
+							<img
+								src="uiux.jpeg"
+								alt="coding"
+							/>
+							<h2>UI/UX Designing</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- <h2 class="services-heading">Tools & Softwares</h2>
+		<div class="tools-logo">
+			<img src="assets/images/logos/photoshop.png" alt="photoshop" />
+			<img src="assets/images/logos/Illustrator.png" alt="Illustrator" />
+			<img src="assets/images/logos/figma.png" alt="figma" />
+			<img src="assets/images/logos/html.png" alt="html" />
+			<img src="assets/images/logos/css.png" alt="css" />
+			<img src="assets/images/logos/js.png" alt="js" />
+			<img src="assets/images/logos/python.png" alt="python" />
+			<img src="assets/images/logos/nodejs.png" alt="nodejs" />
+			<img src="assets/images/logos/react.png" alt="react" />
+			<img src="assets/images/logos/github.png" alt="github" />
+			<img src="assets/images/logos/matlab.png" alt="matlab" />
+		</div> -->
+		</section>
+		 
+
+		<section data-aos="fade-up" class="contact-me flex-box" id="contact">
+			
+			<h2>CONTACT ME</h2>
+			<h4>Let's Connect and Create Magic!</h4>
+			<p>
+				I'm Excited to Hear from You! Whether you have a Project Idea,
+				Collaboration Opportunity, or just want to say Hello, Feel Free
+				to Reach out.
+			</p>
+			<div class="contact-me-wrap">
+				<div data-aos="fade-up" class="contact-container">
+					<div class="contact-details">
+						<div class="contact-info">
+							<i class="fas fa-2x fa-phone"></i>
+							<p>
+								<span>Mobile No. :<br /></span>+91-7355441134
+							</p>
+						</div>
+						<div class="contact-info">
+							<i class="fas fa-2x fa-envelope"></i>
+							<p>
+								<span>E-mail :<br /></span>vermagopal1625@gmail.com || cse22203@glbitm.ac.in
+							</p>
+						</div>
+						<div class="contact-info">
+							<i class="fas fa-2x fa-map-marker-alt loc"></i>
+							<p>
+								<span>Address :<br /></span>Biswan, Sitapur
+								Uttar Pradesh, India - 261001
+							</p>
+						</div>
+						<div class="social-icons">
+							<a
+								href="https://github.com/gopalverma01"
+								target="_blank"
+								><div class="icon-circle">
+									<i class="fa-brands fa-github"></i></div
+							></a>
+							<a
+								href="https://www.linkedin.com/in/gopal-verma-645801247/"
+								target="_blank"
+								><div class="icon-circle">
+									<i class="fa-brands fa-linkedin"></i></div
+							></a>
+							<a
+								href="https://www.instagram.com/gopalverma__31?igsh=MXV0cmkwOHBlb2poag=="
+								target="_blank"
+								><div class="icon-circle">
+									<i class="fa-brands fa-instagram"></i></div
+							></a>
+							<a
+								href="https://www.facebook.com/gopal-verma-645801247"
+								target="_blank"
+								><div class="icon-circle">
+									<i class="fa-brands fa-facebook"></i></div
+							></a>
+							<a
+								href="https://twitter.com/gopalverma__31?igsh"
+								target="_blank"
+								><div class="icon-circle">
+									<i class="fa-brands fa-twitter"></i></div
+							></a>
+							
+						</div>
+					</div>
+				</div>
+
+				<div data-aos="fade-up" class="form-container">
+					<form onsubmit="sendEmail()" class="form">
+						<div class="form-group">
+							<label for="name">Name:</label>
+							<input type="text" id="name" name="name" required />
+						</div>
+						<div class="form-group">
+							<label for="email">Email:</label>
+							<input
+								type="email"
+								id="email"
+								name="email"
+								required
+							/>
+						</div>
+						<div class="form-group">
+							<label for="message">Message:</label>
+							<textarea
+								id="message"
+								name="message"
+								required
+							></textarea>
+						</div>
+						<div class="form-group no-margin">
+							<button type="submit">Send</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<footer class="flex-box">
+			<h2 class="footer-name">Gopal Verma</h2>
+			<p class="thought">
+				"The future belongs to those who believe in the beauty of their
+				dreams.""
+			</p>
+			<br />
+			<br />
+			<p>&copy; 2026 Gopal verma | All Rights Reserved</p>
+			<p class="designed-by">Designed By <span>Gopal verma</span></p>
+		</footer>
+		<!-- Scripts -->
+		<script
+			src="https://kit.fontawesome.com/edbdfc2854.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+		></script>
+		<script type="text/javascript">
+			(function () {
+				emailjs.init("F1yekWdHJoEuCrciC");
+			})();
+		</script>
+		<script src="script.js"></script>
+	</body>
+</html>
